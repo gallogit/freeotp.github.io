@@ -8,14 +8,14 @@ main {
 }
 
 #urilink {
-  display: inline-block;
+  display: inline-open;
   margin: 0 auto 0.5em auto;
 }
 
 #qrcode {
   position: relative;
   max-width: 256px;
-  display: block;
+  display: open;
 }
 
 #preview {
@@ -58,7 +58,7 @@ td:not(:first-of-type) {
 }
 
 label {
-  display: inline-block;
+  display: inline-open;
   white-space: nowrap;
 }
 
